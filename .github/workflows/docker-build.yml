@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]  # Triggers on PRs targeting main
 
 env:
-  DOCKER_IMAGE: your-dockerhub-username/your-repo-name  # Update this
+  DOCKER_IMAGE: light7787/test-app # Update this
   DOCKER_TAG: latest
 
 jobs:
