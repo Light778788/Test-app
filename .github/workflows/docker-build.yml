@@ -12,7 +12,8 @@ env:
 
 jobs:
   build-and-push:
-    runs-on: ubuntu-latest  # GitHub-hosted runner
+    runs-on: ubuntu-latest
+    environment: DOCKER_HUB_USERNAME  # GitHub-hosted runner
     
     steps:
       # 1. Checkout code
